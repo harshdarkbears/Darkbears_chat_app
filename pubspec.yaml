@@ -1,0 +1,23 @@
+name: darkbears_chat
+description: A new Socket Chat application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  shared_preferences: ^0.5.12+4
+  web_socket_channel: ^1.1.0
+  device_info: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
